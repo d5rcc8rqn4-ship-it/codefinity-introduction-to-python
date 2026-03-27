@@ -14,6 +14,6 @@ print("categories",category2)
 bubblegum_price=1.50
 chocolate_price = 2.00
 pasta_price = 5.40
-print(f"we have {candy1} for ${bubblegum_price} in the {category1}")
-print(f"we have {candy2} for ${chocolate_price} in the {category1}")
-print(f"we have {dry_goods} for ${pasta_price} in the {category2}")
+print(f"we have {candy1} for ${bubblegum_price:.2f} in the {category1}")
+print(f"we have {candy2} for ${chocolate_price:.2f} in the {category1}")
+print(f"we have {dry_goods} for ${pasta_price:.2f} in the {category2}")
