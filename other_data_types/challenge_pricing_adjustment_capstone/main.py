@@ -4,9 +4,10 @@ grocery_inventory = {
     "Bread": ("Bakery", 2.99, 15),
     "Apples": ("Produce", 1.50, 50)
 }
-if grocery_inventory[Eggs][1] > 5:
+if grocery_inventory["Eggs"][1] > 5:
  print("Eggs are too expensive, reducing the price by $1")
 else:
     print("The price of Eggs is reasonable")
+    grocery_inventory.update({"Tomatoes": ("Produce", 1.20, 30)})
     
     
